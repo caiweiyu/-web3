@@ -1,0 +1,168 @@
+{
+  "header":{
+    "home": "home",
+    "nftMarket": "NFT market",
+    "nftAuction": "NFT auction",
+    "personalCenter": "Personal Center",
+    "aboutUs": "About us",
+    "chinese": "Chinese",
+    "english": "English",
+    "Link":"Linked wallet",
+    "linkyes":"Linked:",
+    "gold":"Gold artwork",
+    "search":"Explore Now"
+  },
+  "foot":{
+    "collectTheBestNFTGoldArt": "Collect the best NFT gold art",
+    "quickNavigation": "Quick navigation",
+    "nftMarket": "NFT market",
+    "myNFT": "My NFT",
+    "inviteToRegister": "Invite to register",
+    "participate": "Participate",
+    "myCollection": "My collection",
+    "aboutUs": "About us"
+  },
+  "home": {
+    "nftGoldArtCollection": "NFT Gold Art Collection",
+    "nftContent": "Creative design and modern technology combine precious metals such as gold and silver with Chinese culture to produce cultural and creative products. Their products have distinctive cultural attributes and show high design value, technical value and commemorative value.",
+    "exploreNow": "Explore now",
+    "nftGoldClassification": "NFT Gold Classification",
+    "pureGold": "Pure gold",
+    "kGold": "K gold",
+    "lottery": "Lottery",
+    "other": "Other",
+    "hotGoldNft": "Hot Gold NFT",
+    "buyNow": "Buy Now",
+    "auctionNow": "Auction now",
+    "seeMore": "More",
+    "top": "Top",
+    "nftAuction":"nft auction",
+    "auctionNing":"In the auction",
+    "auctionEnd":"Closing of auction",
+    "aboutNFT":"about NFT",
+    "switchLang":"switch language",
+    "followus":"follow us",
+    "resource":"resource",
+    "authorCertification":"author certification",
+    "Developmentfile":"Development file",
+    "whitebook":"whitebook",
+    "overhead":"overhead"
+  },
+  "Privateplacement":{
+    "all":"All",
+    "art":"Art"
+  },
+  "searchNftMarket":{
+    "all":"All",
+    "pureGold": "Pure gold",
+    "lottery": "Lottery",
+    "other": "Other",
+    "top": "Top",
+    "buyNow": "Buy Now",
+    "home": "home",
+    "lastPage": "Last page",
+    "noData":"no Data"
+  },
+  "searchnftAuction":{
+    "all": "All",
+    "pureGold": "Pure gold",
+    "lottery": "Lottery",
+    "other": "Other",
+    "top": "Top",
+    "auctionNow": "Auction now",
+    "home": "home",
+    "lastPage": "Last page"
+  },
+  "nftDetails":{
+    "creator": "Creator",
+    "owner": "Owner",
+    "blockchain": "Blockchain",
+    "uploadtime": "Upload time",
+    "buyNow": "Buy Now",
+    "detailedDescription": "Detailed description",
+    "transactions": "Transactions"
+  },
+  "nftAuction":{
+    "creator": "Creator",
+    "owner": "Owner",
+    "blockchain": "Blockchain",
+    "uploadtime": "Upload time",
+    "biddingPrice": "Bidding price",
+    "auctionNow": "Auction now",
+    "detailedDescription": "Detailed description",
+    "biddingRecord": "Bidding record"
+  },
+  "nftAuctionDialog":{
+    "dialogtitle": "Please enter the number of bidding USDTs ",
+    "pleaseEnter": "Please enter",
+    "determine": "Determine",
+    "cancel": "Cancel"
+  },
+  "personalCenterNavigation":{
+    "personalInformation": "Personal Information",
+    "participate": "Participate",
+    "myCollection": "My collection",
+    "invite": "Invite"
+  },
+  "personalInformation":{
+    "purchased": "Purchased",
+    "totalAssets": "Total assets",
+    "walletAddress": "Wallet address",
+    "registrationTime": "Registration time",
+    "myNft": "My NFT",
+    "top": "Top",
+    "home": "home",
+    "lastPage": "Last page"
+  },
+  "participate":{
+    "top": "Top",
+    "home": "home",
+    "lastPage": "Last page"
+  },
+  "myCollection":{
+    "top": "Top",
+    "home": "home",
+    "lastPage": "Last page"
+  },
+  "invite":{
+    "inviteRevenue": "Invite revenue",
+    "home": "home",
+    "lastPage": "Last page",
+    "numberOfPeopleInvited": "Number of people invited",
+    "fillInTheInvitationAddress": "Fill in the invitation address",
+    "copyInvitationLink": "Copy invitation link",
+    "mySubordinates": "My subordinates",
+    "user": "User",
+    "walletAddress": "Wallet address",
+    "profit": "Profit",
+    "invitationTime": "Invitation time"
+  },
+  "inviteDialog":{
+    "fillInTheWalletAddress": "Fill in the wallet address",
+    "pleaseEnter": "Please enter",
+    "determine": "Determine",
+    "cancel": "Cancel"
+  },
+  "about":{
+    "title":"About wand",
+    "content":"WAND is an NFT trading platform where users can buy or auction NFT collectibles.  Wand currently owns a variety of NFT collectibles. In today's digital age of art, the term NFT refers to non-fungible tokens, becoming the most famous.  All in all, it is a digital material connected to the blockchain.  Text, photos, digital artwork, audio recordings, domain names, trading cards, and in-game objects are all examples of NFT digital material."
+  },
+  "Projectintro":{
+    "title":"Project introduction",
+    "content":"Gold court art is a node economy section hatched from Wand ecological universe. It is a distributed blockchain organization based on the concept of sharing and constrained by smart contracts to jointly create value, obtain and distribute value. Gather domestic and foreign top investment banking institutions, DEF1 investment research and analysis team, risk control team, IT team, incubation team, and jointly build a broader on-chain ecology. The purpose is to build a digital encryption ecological chain, which is jointly built by everyone and shared by everyone, so as to realize the ecological universe of value community and interest community."
+  },
+  "myCommunities":{
+    "title":"My community",
+    "content":"My community Community is a large collective of interrelated life formed by a number of social groups or social organizations gathered in a certain field. It is the most basic content of the social organism and the microcosm of the macro society. Sociologists define community in more than 140 ways. Community is a community and its activity area formed by interrelated groups with certain interactive relations and common cultural maintenance. Although sociologists have different definitions of community, they basically agree on the basic elements of community. It is generally believed that a community should include a certain number of population, a certain range of territory, a certain scale of facilities, a certain characteristics of culture, and a certain type of organization. Community is such a 'community of social life composed of people living in a certain area'. The characteristics of the community: there is a certain geographical area; Having a certain number of people; A common sense and interest among the inhabitants; Have relatively close social contact."
+  },
+  "foundation":{
+    "title":"foundation",
+    "content":"A foundation (charitable foundation) means a non-profit legal person established in accordance with the provisions of these Regulations for the purpose of engaging in public welfare undertakings by utilizing the assets donated by natural persons, legal persons or other organizations. Foundations are divided into those that solicit donations from the public and those that do not. Public funds are divided into national public funds and local public funds according to the geographical scope of fund-raising. According to the Regulations on Foundation Administration, a foundation must be registered with the civil affairs department before it can operate legally. It is a non-governmental non-profit organization in nature. Foundations first matured in the United States. American foundations began to flourish after the 20th century. The Carnegie Corporation and the Rockefeller Foundation in 1900 were two of the first foundations to be established. The Ford Foundation, founded in 1936 and funded by the Ford family, has billions of dollars, projects around the world and a wide reach. In 2000, the Bill & Melinda Gates Foundation was established as the world's largest charitable foundation to promote equality in health and education worldwide. 1. Public welfare The commonweal nature of foundations is embodied in three aspects: first, foundations originate from donations and are institutionalized and organized forms of commonweal donations; Second, the foundation has a clear public welfare purpose; Third, foundations have a clear public benefit purpose, benefiting specific groups and society as a whole through various project activities. The commonweal nature determines that foundation is a kind of social commonweal organization in essence."
+  },
+  "personalInfo":{
+    "personalInfo":"personal information",
+    "Myparticipation":"my participation",
+    "myFavorite":"my Collection",
+    "InviteNewPeople":"Invite new people"
+  }
+}

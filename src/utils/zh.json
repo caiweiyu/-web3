@@ -1,0 +1,168 @@
+{
+  "header":{
+    "home": "首页",
+    "nftMarket": "NFT市场",
+    "nftAuction": "NFT拍卖",
+    "personalCenter": "个人中心",
+    "aboutUs": "关于我们",
+    "chinese": "中文",
+    "english": "英文",
+    "Link":"连接钱包",
+    "linkyes":"已连接",
+    "gold":"黄金艺术品",
+    "search":"立即探索"
+  },
+  "foot":{
+    "collectTheBestNFTGoldArt": "收藏最好的NFT黄金艺术品",
+    "quickNavigation": "快速导航",
+    "nftMarket": "NFT市场",
+    "myNFT": "我的NFT",
+    "inviteToRegister": "邀请注册",
+    "participate": "我参与的",
+    "myCollection": "我的收藏",
+    "aboutUs": "关于我们"
+  },
+  "home": {
+    "nftGoldArtCollection": "NFT黄金艺术收藏品",
+    "nftContent": "创造性的设计和现代技术将金银等贵金属与中华文化相结合而 制成的文化创意产品，其产品具有鲜明的文化属性，表现出很 高的设计价值、技术价值和纪念价值。",
+    "exploreNow": "立即探索",
+    "nftGoldClassification": "NFT黄金分类",
+    "pureGold": "足金",
+    "kGold": "K金",
+    "lottery": "彩金",
+    "other": "其他",
+    "hotGoldNft": "热门黄金NFT",
+    "buyNow": "立即购买",
+    "auctionNow": "立即竞拍",
+    "seeMore": "查看更多",
+    "top": "置顶",
+    "nftAuction":"NFT竞拍",
+    "auctionNing":"竞拍中",
+    "auctionEnd":"竞拍结束",
+    "aboutNFT":"关于NFT",
+    "switchLang":"切换语言",
+    "followus":"关注我们",
+    "resource":"资源",
+    "authorCertification":"作者认证",
+    "Developmentfile":"开发档案",
+    "whitebook":"白皮书",
+    "overhead":"顶置"
+  },
+  "Privateplacement":{
+    "all":"所有",
+    "art":"艺术"
+  },
+  "searchNftMarket":{
+    "all":"全部",
+    "pureGold": "足金",
+    "lottery": "彩金",
+    "other": "其他",
+    "top": "置顶",
+    "buyNow": "立即购买",
+    "home": "首页",
+    "lastPage": "尾页",
+    "noData":"暂无数据"
+  },
+  "searchNftAuction":{
+    "all": "全部",
+    "pureGold": "足金",
+    "lottery": "彩金",
+    "other": "其他",
+    "top": "置顶",
+    "auctionNow": "立即竞拍",
+    "home": "首页",
+    "lastPage": "尾页"
+  },
+  "nftDetails":{
+    "creator": "创作者",
+    "owner": "拥有人",
+    "blockchain": "区块链",
+    "uploadtime": "上传时间",
+    "buyNow": "立即购买",
+    "detailedDescription": "详细描述",
+    "transactions": "交易记录"
+  },
+  "nftAuction":{
+    "creator": "创作者",
+    "owner": "拥有人",
+    "blockchain": "区块链",
+    "uploadtime": "上传时间",
+    "biddingPrice": "竞拍价",
+    "auctionNow": "立即竞拍",
+    "detailedDescription": "详细描述",
+    "biddingRecord": "竞拍记录"
+  },
+  "nftAuctionDialog":{
+    "dialogtitle": "请输入竞拍USDT数量",
+    "pleaseEnter": "请输入",
+    "determine": "确定",
+    "cancel": "取消"
+  },
+  "personalCenterNavigation":{
+    "personalInformation": "个人信息",
+    "participate": "我参与的",
+    "myCollection": "我的收藏",
+    "invite": "邀请新人"
+  },
+  "personalInformation":{
+    "purchased": "已购买",
+    "totalAssets": "总资产",
+    "walletAddress": "钱包地址",
+    "registrationTime": "注册时间",
+    "myNft": "我的nft",
+    "top": "置顶",
+    "home": "首页",
+    "lastPage": "尾页"
+  },
+  "participate":{
+    "top": "置顶",
+    "home": "首页",
+    "lastPage": "尾页"
+  },
+  "myCollection":{
+    "top": "置顶",
+    "home": "首页",
+    "lastPage": "尾页"
+  },
+  "invite":{
+    "inviteRevenue": "邀请收益",
+    "home": "首页",
+    "lastPage": "尾页",
+    "numberOfPeopleInvited": "Number of people invited",
+    "fillInTheInvitationAddress": "填写邀请地址",
+    "copyInvitationLink": "复制邀请链接",
+    "mySubordinates": "我的下级",
+    "user": "用户",
+    "walletAddress": "钱包地址",
+    "profit": "收益",
+    "invitationTime": "邀请时间"
+  },
+  "inviteDialog":{
+    "fillInTheWalletAddress": "填写钱包地址",
+    "pleaseEnter": "请输入",
+    "determine": "确定",
+    "cancel": "取消"
+  },
+  "about":{
+    "title":"关于我们",
+    "content":"wand 是一个非功能化交易平台，用户可以在这里购买或拍卖非功能化收藏品。Wand目前拥有各种NFT收藏品。在当今艺术的数字时代，NFT这个词指的是不可替代的代币，成为最著名的词。总之，它是连接到区块链的数字材料。文本、照片、数字艺术作品、音频记录、域名、交易卡和游戏中的物品都是NFT数字材料的例子。"
+  },
+  "Projectintro":{
+    "title":"项目介绍",
+    "content":"黄金宫廷艺术品是从wand生态宇宙孵化出来的节点经济板块。它是一个基于共享概念并受智能合约约束的分布式区块链组织，共同创造价值，获取和分配价值。汇聚国内外顶级投行机构、DEF1投资研究分析团队、风控团队、IT团队、孵化团队，共同构建更广阔的链上生态。目的是构建一个由每个人共同构建、由每个人共享的数字加密生态链，从而实现价值共同体和利益共同体的生态宇宙。"
+  },
+  "myCommunities":{
+    "title":"我的社区",
+    "content":"我的社区社区是由聚集在某一领域的多个社会团体或社会组织组成的相互关联的生活的大集体。它是社会有机体最基本的内容，也是宏观社会的缩影。社会学家以140多种方式定义社区。社区是由相互关联的群体形成的社区及其活动区域，具有一定的互动关系和共同的文化维护。尽管社会学家对社区有不同的定义，但他们基本上同意社区的基本要素。一般认为，一个社区应该包括一定数量的人口、一定的领土范围、一定的设施规模、一定的文化特征和一定类型的组织。社区就是这样一个“由生活在一定地区的人们组成的社会生活共同体”。社区的特点：有一定的地理区域;有一定数量的人;居民的常识和兴趣;有比较密切的社交联系。"
+  },
+  "foundation":{
+    "title":"基金会",
+    "content":"基金会（慈善基金会）是指依照本条例规定设立，利用自然人、法人或者其他组织捐赠的财产从事公益事业的非营利法人。基金会分为向公众募捐的基金会和不募集捐款的基金会。公共资金按照募集资金的地域范围分为国家公共资金和地方公共资金。根据《基金会管理条例》，基金会必须向民政部门登记，方可合法经营。它本质上是一个非政府非营利组织。基金会首先在美国成熟。20世纪后，美国基金会开始蓬勃发展。1900年的卡内基公司和洛克菲勒基金会是最早成立的两个基金会。福特基金会成立于1936年，由福特家族资助，拥有数十亿美元，项目遍布全球，影响广泛。2000年，比尔及梅琳达·盖茨基金会成立，是世界上最大的慈善基金会，旨在促进全球健康和教育平等。1.公益性 基金会的公益性质体现在三个方面：一是基金会来源于捐赠，是公益捐赠的制度化、有组织化的形式;二是基金会有明确的公益目的;第三，基金会具有明确的公益目的，通过各种项目活动使特定群体和整个社会受益。公益性质决定了基金会本质上是一种社会公益组织。;有一定数量的人;居民的常识和兴趣;有比较密切的社交联系。"
+  },
+  "personalInfo":{
+    "personalInfo":"个人信息",
+    "Myparticipation":"我参与的",
+    "myFavorite":"我的收藏",
+    "InviteNewPeople":"邀请新人"
+  }
+}
