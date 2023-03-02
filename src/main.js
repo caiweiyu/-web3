@@ -7,6 +7,7 @@ import Vant from 'vant'
 import i18n from './utils/index';
 import formatDateTime from "./utils/date"
 import SliderShow from 'slider-show'
+import '../src/utils/main' 
 //引入rem适配文件
 import "./utils/rem"
 Vue.use(SliderShow)

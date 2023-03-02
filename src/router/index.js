@@ -38,7 +38,7 @@ const routes = [
       title: "Nft market",
     },
     component: () => import("@/views/gameFi"),
-  }
+  },
   // {
   //   path: "/",
   //   name: "",
@@ -179,14 +179,14 @@ const routes = [
   //       },
   //       component: () => import("@/views/nftMarket/info"),
   //     },
-  //     {
-  //       path: "/projectInfo",
-  //       name: "projectInfo",
-  //       meta: {
-  //         title: "项目介绍",
-  //       },
-  //       component: () => import("@/views/projectInfo"),
-  //     },
+      {
+        path: "/projectInfo",
+        name: "projectInfo",
+        meta: {
+          title: "项目介绍",
+        },
+        component: () => import("@/views/projectInfo"),
+      },
   //     {
   //       path: "/ProjectIntroduction",
   //       name: "ProjectIntroduction",
@@ -203,30 +203,30 @@ const routes = [
   //       },
   //       component: () => import("@/views/myCommunities"),
   //     },
-  //     {
-  //       path: "/myCommunity",
-  //       name: "myCommunity",
-  //       meta: {
-  //         title: "我的社区",
-  //       },
-  //       component: () => import("@/views/myCommunity"),
-  //     },
-  //     {
-  //       path: "/foundation",
-  //       name: "foundation",
-  //       meta: {
-  //         title: "基金会",
-  //       },
-  //       component: () => import("@/views/foundation"),
-  //     },
-  //     {
-  //       path: "/yuanUniverse",
-  //       name: 'yuanUniverse',
-  //       meta: {
-  //         title: "元宇宙",
-  //       },
-  //       component: () => import("@/views/yuanUniverse"),
-  //     },
+      {
+        path: "/myCommunity",
+        name: "myCommunity",
+        meta: {
+          title: "我的社区",
+        },
+        component: () => import("@/views/myCommunity"),
+      },
+      {
+        path: "/foundation",
+        name: "foundation",
+        meta: {
+          title: "基金会",
+        },
+        component: () => import("@/views/foundation"),
+      },
+      {
+        path: "/yuanUniverse",
+        name: 'yuanUniverse',
+        meta: {
+          title: "元宇宙",
+        },
+        component: () => import("@/views/yuanUniverse"),
+      },
   //     {
   //       path: "/Administrator",
   //       name: "Administrator",

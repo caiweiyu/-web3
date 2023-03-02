@@ -1,10 +1,10 @@
 <template>
   <div class="mobile">
-    <i class="el-icon-s-fold kou" @click="openLeft">
-    </i>
-    <div class="title">
-        首页
-    </div>
+    <Navigator :title="'首页'">
+        <template v-slot:header>
+            <i :class="['kou','el-icon-s-fold']" @click="openLeft"></i>
+        </template>
+    </Navigator>
     <div class="home"></div>
     <div :class="['box','pageHome',status ? 'active' : '']">
         <ul class="box-ul">
@@ -77,17 +77,18 @@
                     <li class="leftBox-left-header-top-left">Address</li>
                     <li class="leftBox-left-header-top-right">
                         <div class="address" v-if="MyAddress != ''">
-                            {{  $t('header.linkyes')+" : " }}{{MyAddress && MyAddress.replace(/(.{4}).*(.{3})/, '$1...$2') }}
-                            </div>
-                        <div class="address" v-if="MyAddress == ''" @click="LoginQb()">
+                            <div>{{  $t('header.linkyes')+" : " }}{{MyAddress && MyAddress.replace(/(.{4}).*(.{3})/, '$1...$2') }}</div>
+                            <div class="copy" v-copy="MyAddress"></div>
+                        </div>
+                        <div class="" v-if="MyAddress == ''" @click="LoginQb()">
                             <!-- 链接钱包 -->
-                            {{ $t('header.Link') }}
+                            {{ $t('header.Link')+" : ******"}}
                         </div>
                     </li>
                 </ul>
             </div>
             <ul class="leftBox-left-ul">
-                <li @click="routerFn(item.name)" class="leftBox-left-ul-li" v-for="(item,index) in list" :key="index">
+                <li @click="routerFn(item.other)" class="leftBox-left-ul-li" v-for="(item,index) in list" :key="index">
                     <img :src="item.img" alt="">
                     <div>{{ item.name }}</div>
                 </li>
@@ -100,6 +101,7 @@
 </template>
 
 <script>
+import Navigator from "../../components/navigator_bar.vue"
 export default {
     name:'tokenIndex',
     data(){
@@ -107,26 +109,32 @@ export default {
             status:false,
             secondStatus:false,
             input:"",
-            leftStatus:false,
             MyAddress:'',
+            leftStatus:false,
             list:[
-                {img:require('../../assets/images/index/1.png'),name:'BGC',other:""},
-                {img:require('../../assets/images/index/2.png'),name:'项目介绍',other:""},
+                {img:require('../../assets/images/index/1.png'),name:'STF',other:""},
+                {img:require('../../assets/images/index/2.png'),name:'项目介绍',other:"projectInfo"},
                 {img:require('../../assets/images/index/3.png'),name:'白皮书',other:""},
                 {img:require('../../assets/images/index/4.png'),name:'购买治理节点',other:""},
-                {img:require('../../assets/images/index/5.png'),name:'我的社区',other:""},
+                {img:require('../../assets/images/index/5.png'),name:'我的社区',other:"myCommunity"},
                 {img:require('../../assets/images/index/6.png'),name:'分享好友',other:""},
-                {img:require('../../assets/images/index/7.png'),name:'基金会',other:""},
+                {img:require('../../assets/images/index/7.png'),name:'基金会',other:"foundation"},
                 {img:require('../../assets/images/index/8.png'),name:'我的资产',other:""},
                 {img:require('../../assets/images/index/9.png'),name:'语言设置',other:""},
-                {img:require('../../assets/images/index/10.png'),name:'元宇宙',other:""},
+                {img:require('../../assets/images/index/10.png'),name:'元宇宙',other:"yuanUniverse"},
                 {img:require('../../assets/images/index/11.png'),name:'系统公告',other:""}
-            ]
+            ],
         }
     },
+    components:{
+        Navigator
+    },
+    mounted(){
+        this.LoginQb()
+    },
     methods:{
-        openLeft(){
-            this.leftStatus = !this.leftStatus
+        copyFn(){
+
         },
         open(){
             this.status = !this.status
@@ -147,9 +155,14 @@ export default {
         insetChange(data){
             this.$message.success('正在输入...'+data)
         },
-        routerFn(data){
-            this.$message.success(data)
+        openLeft(){
             this.leftStatus = !this.leftStatus
+        },
+        routerFn(data){
+            // this.$message.success(data)
+            console.log(data)
+            this.leftStatus = !this.leftStatus;
+            this.$router.push({ name:data })
         },
         loginSuccessful (e) {
             this.MyAddress = e
@@ -159,9 +172,6 @@ export default {
             this.LinkBNB()
         }
     },
-    mounted(){
-        this.LinkBNB()()
-    }
 }
 </script>
 
@@ -414,6 +424,19 @@ export default {
                     font-family: PingFang SC-Regular, PingFang SC;
                     font-weight: 400;
                     color: #783D0D;
+                    .address{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        .copy{
+                            background: url('../../assets/images/index/copy.png')no-repeat center;
+                            background-size: 100% 100%;
+                            width: pxttrem(52.83);
+                            height: pxttrem(52.83);
+                            margin-right: pxttrem(28);
+                            cursor: pointer;
+                        }
+                    }
                 }
             }
         }
